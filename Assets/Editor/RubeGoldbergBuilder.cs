@@ -1666,7 +1666,7 @@ public static class RubeGoldbergBuilder
         Vector3 upperEnd = lane.Point(LaneLength * 0.5f, 0f, 0f);
         Vector3 landingPoint = lane2.Point(7.45f, 0f, 0f);
         Vector3 funnelTop = new Vector3(landingPoint.x, upperEnd.y - 0.12f, 0f);
-        BuildFunnel("Funnel Drop I", funnelTop, 1.80f, 1.50f, 0.50f);
+        BuildFunnel("Funnel Drop I", funnelTop, 2.00f, 1.80f, 0.45f);
         AddWorldStage("Brass funnel drop", funnelTop + new Vector3(0f, -0.22f, 0f), new Vector3(2.2f, 1.4f, 2.2f));
     }
 
@@ -1688,7 +1688,7 @@ public static class RubeGoldbergBuilder
         Vector3 upperEnd = lane.Point(-LaneLength * 0.5f, 0f, 0f);
         Vector3 landingPoint = lane3.Point(-7.45f, 0f, 0f);
         Vector3 funnelTop = new Vector3(landingPoint.x, upperEnd.y - 0.12f, 0f);
-        BuildFunnel("Funnel Drop II", funnelTop, 1.80f, 1.50f, 0.50f);
+        BuildFunnel("Funnel Drop II", funnelTop, 2.00f, 1.80f, 0.45f);
         AddWorldStage("Second funnel drop", funnelTop + new Vector3(0f, -0.22f, 0f), new Vector3(2.2f, 1.4f, 2.2f));
     }
 
